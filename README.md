@@ -14,22 +14,22 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| **LLM Gateway** 🔒 | One OpenAI-compatible API over Anthropic, OpenAI and Ollama with cost tracking and budget limits. Reliability measured under 11 failure scenarios: success rate 46% → 91%, p95 in a failure storm 20 s → 250 ms | Python, PostgreSQL, Docker |
+| **LLM Gateway** 🔒 | One OpenAI-compatible API over Anthropic, OpenAI and Ollama with cost tracking and budget limits. Reliability measured on a mock provider driven by a chaos harness — 11 failure scenarios, not live traffic: success rate 46% → 91%, p95 in a failure storm 20 s → 250 ms | Python, PostgreSQL, Docker |
 | **RAG evaluation harness** 🔒 | Measurement apparatus for RAG: separates retrieval from generation failures, validates LLM judges, reports bootstrap confidence intervals and robustness to prompt injection | Python, BM25, dense retrieval, statistics |
-| **Kazakhstan Labor Code RAG** 🔒 | Question answering over the Labor Code of Kazakhstan: evaluation harness built before the system, retrieval pipeline on pgvector, 192 tests | Python, pgvector, Docker |
+| **Kazakhstan Labor Code RAG** 🔒 | Question answering over the Labor Code of Kazakhstan: evaluation harness built before the system, retrieval pipeline on pgvector, 275 tests | Python, pgvector, Docker |
 
 ## 🧠 Machine learning
 
 | Project | What it answers | Stack |
 |---|---|---|
-| [Credit risk scoring with text features](https://github.com/BakdauletBolatA/credit-risk-nlp) | Does borrower free text improve default prediction on 278k LendingClub loans, and what is it worth in money? | LightGBM, SHAP, Streamlit |
+| [Credit risk scoring with text features](https://github.com/BakdauletBolatA/credit-risk-nlp) | Does borrower free text improve default prediction on 278k LendingClub loans, and what is it worth in money? Text adds +0.0009 AUC — real but trivial; rejecting applications earns nothing on a risk-priced book; ranking on expected return beats it by +3.81 pp a year, annualised | LightGBM, SHAP, Streamlit |
 
 ## 📈 Data & finance
 
 | Project | What it answers | Stack |
 |---|---|---|
 | [QuantDesk](https://github.com/BakdauletBolatA/quant-research-desk) | Equity research stack: DCF with Monte Carlo, factor attribution, portfolio allocation and walk-forward backtests | Python, statsmodels, scikit-learn |
-| [Northwind SaaS unit economics](https://github.com/BakdauletBolatA/northwind-saas-unit-economics) | Should a SaaS company double its sales team? CAC payback and cash runway by scenario | Python, pandas |
+| [Northwind SaaS unit economics](https://github.com/BakdauletBolatA/northwind-saas-unit-economics) | Should a SaaS company double its sales team? CAC payback and cash runway by scenario, on synthetic data for a fictional company | Python, pandas, SQLite, Excel |
 | [Who does the tenge move with?](https://github.com/BakdauletBolatA/tenge-fx-analysis) | Ruble or oil? National Bank of Kazakhstan exchange rates 2005–2026 tested against popular narratives | Python, Jupyter |
 | [SQL e-commerce analytics](https://github.com/BakdauletBolatA/sql-ecommerce-analytics) | Eight business questions on an 11-table online store database, answered in pure SQL | SQL, SQLite |
 
