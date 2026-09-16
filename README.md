@@ -15,8 +15,8 @@
 | Project | What it does | Stack |
 |---|---|---|
 | **LLM Gateway** 🔒 | One OpenAI-compatible API over Anthropic, OpenAI and Ollama with cost tracking and budget limits. Reliability measured on a mock provider driven by a chaos harness — 11 failure scenarios, not live traffic: success rate 46% → 91%, p95 in a failure storm 20 s → 250 ms | Python, PostgreSQL, Docker |
-| **RAG evaluation harness** 🔒 | Measurement apparatus for RAG: separates retrieval from generation failures, validates LLM judges, reports bootstrap confidence intervals and robustness to prompt injection | Python, BM25, dense retrieval, statistics |
-| **Kazakhstan Labor Code RAG** 🔒 | Question answering over the Labor Code of Kazakhstan: evaluation harness built before the system, retrieval pipeline on pgvector, 275 tests | Python, pgvector, Docker |
+| **RAG evaluation harness** 🔒 | Measurement apparatus for RAG: separates retrieval from generation failures, validates LLM judges, reports bootstrap confidence intervals and robustness to prompt injection. First results on MuSiQue: BM25 finds 42% of the gold paragraphs at k=5, but all hops of a question only 9.6% of the time | Python, BM25, dense retrieval, statistics |
+| **Kazakhstan Labor Code RAG** 🔒 | Question answering over the Labor Code of Kazakhstan: evaluation harness built before the system, retrieval pipeline on pgvector, 370 tests | Python, pgvector, Docker |
 
 ## 🧠 Machine learning
 
