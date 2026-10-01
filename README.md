@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Bakdaulet</h1>
-<h3 align="center">Data Analyst · ML & AI Engineer from Kazakhstan</h3>
+<h3 align="center">ML & AI Engineer</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=BakdauletBolatA&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
@@ -7,7 +7,6 @@
 
 - 🔭 I build data, ML and AI systems and measure whether they actually work: LLM gateways, RAG evaluation, credit scoring, financial models
 - 🌱 I'm currently deepening **LLM engineering**, **RAG evaluation** and **machine learning for risk**
-- 👯 I'm open to **Data Analyst**, **ML Engineer** and **AI Engineer** roles
 - 📫 How to reach me: **bolatbakdaulet2000@gmail.com**
 
 ## 🤖 AI & LLM engineering
@@ -32,13 +31,6 @@
 | [Northwind SaaS unit economics](https://github.com/BakdauletBolatA/northwind-saas-unit-economics) | Should a SaaS company double its sales team? CAC payback and cash runway by scenario, on synthetic data for a fictional company | Python, pandas, SQLite, Excel |
 | [Who does the tenge move with?](https://github.com/BakdauletBolatA/tenge-fx-analysis) | Ruble or oil? National Bank of Kazakhstan exchange rates 2005–2026 tested against popular narratives | Python, Jupyter |
 | [SQL e-commerce analytics](https://github.com/BakdauletBolatA/sql-ecommerce-analytics) | Eight business questions on an 11-table online store database, answered in pure SQL | SQL, SQLite |
-
-## 🌐 Web
-
-| Project | What it is | Stack |
-|---|---|---|
-| [SPICY](https://spicy-almaty.vercel.app/) | Storefront website for an Almaty clothing brand with catalog and size guide | HTML, CSS, JavaScript |
-| **Decotrade** 🔒 | Marketing website for a facade-finishing company with a cost calculator and portfolio | HTML, CSS, JavaScript |
 
 <sub>🔒 Private repository — code available on request.</sub>
 
